@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+/* body styles */
+
 body {
 	background-image: url('https://images.unsplash.com/photo-1605101479435-005f9c563944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
 	background-position: center;
@@ -11,6 +13,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* heading 1 styles */
 
 h1 {
 	font-family: 'Ubuntu', sans-serif;
@@ -21,6 +25,8 @@ h1 {
 	border-bottom: 3px solid white;
 	padding-bottom: 10px; 
 }
+
+/* heading 3 styles */
 
 h3 {
 	font-family: Monospace;
@@ -35,6 +41,8 @@ h3 {
 	margin-top: 40px;
 	color: white;
 }
+
+/* image container styles */
 		
 .pics {
 	display: flex;
@@ -44,16 +52,22 @@ h3 {
 	margin-left: -30px;
 }
 
+/* Individual image styles */
+
 .pics img {
 	margin-left: 30px;
 	transition: 0.5s all;
 }
+
+/* image hover style */
 
 .pics img:hover {
 	border: 7px solid white;
 	transform: scale(1.1);
 
 }
+
+/* heading 4 styles */
 
 h4 {
 	font-family: Cursive;
